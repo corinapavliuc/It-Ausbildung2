@@ -1,0 +1,31 @@
+package newproject;
+
+public class newproject {
+
+    public static void main(String args[]) {
+        byte time = 20;
+        if (time > 0 && time < 12) {
+            System.out.println("Сейчас утро!");
+        } else if (time >= 12 && time < 17) {
+            System.out.println("Сейчас день!");
+        }
+        else if (time >= 17 && time < 21) {
+            System.out.println("Сейчас вечер!");
+
+        } else if (time == 21 && time <= 24) {
+            System.out.println("Сейчас ночь!");
+        }
+        else {
+            System.out.println("Введите правильное число.");
+        }
+
+
+    }
+}
+
+
+C:\Users\Tel-ran.de\.jdks\corretto-17.0.7\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar=64861:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Tel-ran.de\Newproject\out\production\Newproject newproject.newproject
+
+Сейчас вечер!
+
+Process finished with exit code 0

@@ -1,0 +1,7 @@
+  int firstNumber = 15;
+
+        long secondNumber = 638L;
+
+        int result = (int) (firstNumber + secondNumber);
+ // результата в скобках - long. 
+И затем происходит ЯВНОЕ присваивание РЕЗУЛЬТАТА к int

@@ -1,0 +1,11 @@
+  String str = "I JJloJvJe (hate) Java! JJ";
+
+        int index = str.indexOf("Ja");
+
+        System.out.println(str);
+
+        System.out.println("Индекс символа 'Ja': " + index);
+
+        String substringed = str.substring(index);
+
+        System.out.println(substringed);

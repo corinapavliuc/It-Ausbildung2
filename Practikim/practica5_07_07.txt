@@ -1,0 +1,9 @@
+byte x = 15;
+        if (x > 10)
+            System.out.println("the number is greater than 10");
+
+        else if (x == 10)
+            System.out.println("the number equals to 10");
+
+        else
+            System.out.println("the number is less than 10");

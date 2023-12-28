@@ -1,0 +1,21 @@
+public class Main {
+
+    public static void main(String[] args) {
+        int first = 5;
+        int second = 6;
+
+        printSum(first, second);
+        int sum = getSum(first, second);
+
+        System.out.println("Значение переменной sum: " + sum);
+    }
+
+    public static void printSum(int firstNumber, int secondNumber) {
+        int result = firstNumber + secondNumber;
+        System.out.println("Результат сложения двух чисел: " + result);
+    }
+
+    public static int getSum(int firstNumber, int secondNumber) {
+        return firstNumber + secondNumber;
+    }
+}

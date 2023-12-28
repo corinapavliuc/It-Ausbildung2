@@ -1,0 +1,18 @@
+package newproject;
+
+public class newproject {
+
+    public static void main(String args[]) {
+        int number = 9;
+        if (number % 2 == 0) System.out.println("The number is even");
+        else System.out.println("The number is odd");
+
+    }
+}
+
+
+
+C:\Users\Tel-ran.de\.jdks\corretto-17.0.7\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar=65155:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Tel-ran.de\Newproject\out\production\Newproject newproject.newproject
+The number is odd
+
+Process finished with exit code 0

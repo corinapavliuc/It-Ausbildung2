@@ -1,0 +1,7 @@
+int x = 345;
+        int five = x%10;
+        int four = x/10%10;
+        int three = x/100;
+        System.out.println("The first digit is: "+five+ ", "+
+"The second digit is: "+four+ ", 
+"+"The third digit is: "+three+ ". ");

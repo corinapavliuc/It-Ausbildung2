@@ -1,0 +1,41 @@
+String simpleString = "Hello! I'm a simple string";
+
+        String anotherString = new String("Hello! I'm another string");
+
+        System.out.println(simpleString);
+
+        System.out.println(anotherString);
+
+        System.out.println(simpleString + "; my length is - " + simpleString.length());
+
+        System.out.println(anotherString + "; my length is - " + anotherString.length());
+
+        System.out.println("_______________________________________________________________");
+
+        System.out.println(simpleString.substring(12));
+
+        System.out.println(anotherString.substring(20));
+
+        System.out.println(anotherString.substring(25));
+
+Starta Institute 24 11:58
+int firstInt = 128;
+
+        long firstLong = firstInt;
+
+        System.out.println(firstInt);
+
+        System.out.println("________________________________________________________");
+
+        System.out.println(firstLong);
+
+        byte firstByte = (byte) firstInt;
+
+        System.out.println("________________________________________________________");
+
+        System.out.println(firstByte);
+
+
+        // 0 0 1 1 1 1 1 1 // 31
+
+        // 0 0 0 0 0 0 0  0 0 0 0 0 0 0 0 0  0 0 0 0 0 0 1 1 1 1 1 1 // 31

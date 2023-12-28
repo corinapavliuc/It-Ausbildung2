@@ -1,0 +1,26 @@
+public static void checkDayOfWeekSwitch (String dayOfWeek) {
+        switch (dayOfWeek) {
+            case "Monday":
+                System.out.println("Сегодня понедельник!");
+                break;
+            case "Tuesday":
+                System.out.println("Сегодня вторник!");
+                break;
+            default:
+                System.out.println("Это не день недели");
+                System.out.println("Может быть, ты хочешь проверить имена?");
+
+                switch (dayOfWeek) {
+                    case "Ivan":
+                        System.out.println("Привет, Иван!");
+                        break;
+                    case "Armen":
+                        System.out.println("Привет, Армен!");
+                        break;
+                    default:
+                        System.out.println("Это не имя");
+                }
+
+                System.out.println("Внешний свитч кончается тут");
+        }
+    }

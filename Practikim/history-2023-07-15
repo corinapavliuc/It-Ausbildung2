@@ -1,0 +1,52 @@
+   0 ls /
+   1 ls -al /
+   2 clear
+   3 cal -y 2023
+   4 cal -y 2025
+   5 cal -y 2000
+   6 clear
+   7 bc
+   8 curl wttr.in/Berlin
+   9 clear
+  10 ls /
+  11 dir /
+  12 ls -al
+  13 cd /var/log
+  14 ls -a
+  15 pwd
+  16 cd 
+  17 pwd
+  18 w
+  19 ls /home
+  20 cd /home
+  21 mkdir -p /home/Dir1/Dir2/Dir3
+  22 tree
+  23 touch Dir1/Dir2/Dir3/file1.txt Dir1/Dir2/Dir3/file2.txt 
+  24 ls Dir1/Dir2/Dir3/
+  25 tree 
+  26 cp Dir1/Dir2/Dir3/file1.txt /root/file3.txt
+  27 ls /root
+  28 mv -r Dir1/Dir2/Dir3/ /root/
+  29 mv -r Dir1/Dir2/Dir3/ /root/Dir3/
+  30 mv - Dir1/Dir2/Dir3/ /root/
+  31 mv -R Dir1/Dir2/Dir3/ /root/
+  32 mv --help
+  33 mv  Dir1/Dir2/Dir3/ /root/
+  34 mv  Dir1/Dir2/Dir3/* /root/
+  35 mv  /home/Dir1/Dir2/Dir3/* /root/Dir3
+  36 mv Dir1/Dir2/Dir3 /root/Dir3
+  37 ls -al
+  38 tree
+  39 ls -al /root
+  40 ls -al /root/Dir3/
+  41 mv /root/Dir3/ /home
+  42 ls al /home/
+  43 ls --help
+  44 ls -la
+  45 ls -al
+  46 echo history
+  47 cat history
+  48 cd 
+  49 cat history
+  50 history
+  51 history > history-2023-07-15

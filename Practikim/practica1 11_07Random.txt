@@ -1,0 +1,16 @@
+public class RandomExample {
+
+    public static void main(String[] args) {
+        Random random = new Random();
+
+        int randomNumber = random.nextInt();
+
+        System.out.println("Результат работы объекта random - значение int перeменной randomNumber: " + randomNumber);
+
+        System.out.println("Это отработала следующая инструкция");
+
+        System.out.println("Это опять отработала еще одна инструкция");
+
+        System.out.println("Еще раз значение переменной randomNumber: " + randomNumber);
+    }
+}
